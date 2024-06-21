@@ -1,0 +1,203 @@
+.logo span{
+    font-family: var(--heading-font);
+    color: var(--logo-colour);
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    margin-left: 0px;
+    font-size: 27px;
+    line-height: 26px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.page-links{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a{
+    font-family: var(--text-font);
+    font-size: large;
+    text-decoration: none;
+    color: var(--links-colour);
+    margin: 20px;
+    padding: 5px 5px 5px 5px;
+}
+.nav-links a:hover{
+    color: var(--hover-colour);
+}
+.button-reserve button {
+    background-color: var(--button-colour);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    font-family: var(--text-font);  
+    margin: 20px;  
+}
+.button-reserve button:hover{
+    background-color: var(--button-hover);
+}
+main{
+    /*background-color: var(--colour-gray);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--text-font);
+}
+h1, p{
+    color: whitesmoke;
+}
+p{
+    font-family: var(--text-font);
+    font-size: 20px;
+    color: var(--button-colour);
+}
+h1{
+    font-size: 40px;
+    font-family: var(--heading-font);
+}
+span p{
+    color: var(--white);
+}
+.hostel-section,
+.trending-section{
+    background-color: var(--background-colour);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.facilities-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-colour);
+    padding: 25px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+.inner-extra-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.hostel-types{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: space-around;
+}
+.hostel-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hostel{
+    margin: 20px;
+    transition: opacity 0.3s ease;
+    /*background-color: whitesmoke;*/
+}
+.hostel img{
+    width: 100%;
+    transition: opacity 0.3s ease;
+}
+.hostel img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+.hostel:hover{
+    transform: scale(1.05);
+    opacity: 1;
+    
+}
+.hostel-types:hover .hostel:not(:hover) img{
+    opacity: 0.5;
+}
+.facilities{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: space-around;
+    
+}
+.facilities-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.facilities-heading span{
+    padding: 25px;
+}
+.facility{
+    margin: 20px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facility img{
+    width: 100%;
+}
+.facility img:hover{
+    transform: scale(1.05);
+}
+.extra-facilities{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.trending-hostels{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: space-around;
+}
+.trending-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t-hostels{
+    margin: 20px;
+    /*background-color: whitesmoke;*/
+}
+.t-hostels img{
+    width: 100%;
+}
+.t-hostels img:hover{
+    transform: scale(1.05);
+}
+.p{
+    font-size: 15px;
+    color: var(--white);
+}
+
+footer{
+    display: flex;
+    background-color: var(--background-colour);
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--links-colour);
+}
+footer p{
+    font-size: 15px;
+    color: var(--white);
+}

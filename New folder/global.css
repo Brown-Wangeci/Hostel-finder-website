@@ -1,0 +1,30 @@
+html{
+    background-color: var(--black);
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+:root {
+    /*Theme Colours*/
+    --background-colour: rgb(0, 0, 0, 0.92);
+    --footer-colour: lightgrey;
+    --logo-colour: #bd6410;
+    --button-colour: #bd6410;
+    --text-colour: #fff;
+    --links-colour: #8353E2;
+    --hover-colour:#bd6410;
+    --button-hover: #d67d29;
+    --colour-gray: #424856;
+    --section-colour: lightgrey;
+    --facility-colour: lightgrey;
+    --black: black;
+    --white:white;
+
+
+
+    /*Fonts*/
+    --heading-font: Epilogue;
+    --text-font: Inter;
+
+}

@@ -1,0 +1,44 @@
+.logo span{
+    font-family: var(--heading-font);
+    color: var(--logo-colour);
+    font-weight: 700;
+    padding: 10px 10px 10px 10px;
+    margin-left: 0px;
+    font-size: 27px;
+    line-height: 26px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.page-links{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links a{
+    font-family: var(--text-font);
+    font-size: large;
+    text-decoration: none;
+    color: var(--links-colour);
+    margin: 20px;
+    padding: 5px 5px 5px 5px;
+}
+.nav-links a:hover{
+    color: var(--hover-colour);
+}
+.button-reserve button {
+    background-color: var(--button-colour);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    font-family: var(--text-font);  
+    margin: 20px;  
+}
+.button-reserve button:hover{
+    background-color: var(--button-hover);
+}
