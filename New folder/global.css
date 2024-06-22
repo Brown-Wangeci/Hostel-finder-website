@@ -1,5 +1,5 @@
 html{
-    background-color: var(--black);
+    background-color: var(--white-smoke);
     scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
@@ -20,6 +20,7 @@ html::-webkit-scrollbar {
     --facility-colour: lightgrey;
     --black: black;
     --white:white;
+    --white-smoke: whitesmoke;
 
 
 
