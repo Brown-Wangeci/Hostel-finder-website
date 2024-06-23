@@ -73,14 +73,15 @@ main .container{
     /*box-shadow: 0 0 2px #696868c7,0 2px 5px rgb(252, 163, 19);*/
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    background-color: var(--white);
+    background-color: var(--transparent);
+    /*background-color: var(--white);*/
     /*justify-content: flex-start;*/
     /*padding:30px 40px;*/
 }
 .container h1{/*Login text size and font*/
-    font-size:36px;
+    font-size:32px;
     text-align:center;
-    font-family: var(--heading-font);
+    font-family: var(--text-font);
     color: var(--background-colour);
 }
 .container .input-box{

@@ -5,6 +5,9 @@ html{
 html::-webkit-scrollbar {
     display: none;
 }
+hr{
+    margin: 0px;
+}
 :root {
     /*Theme Colours*/
     --background-colour: rgb(0, 0, 0, 0.92);
