@@ -16,12 +16,12 @@ html::-webkit-scrollbar {
     --hover-colour:#bd6410;
     --button-hover: #d67d29;
     --colour-gray: #424856;
-    --section-colour: lightgrey;
+    --section-colour: white;
     --facility-colour: lightgrey;
     --black: black;
     --white:white;
     --white-smoke: whitesmoke;
-
+    --transparent: transparent;
 
 
     /*Fonts*/

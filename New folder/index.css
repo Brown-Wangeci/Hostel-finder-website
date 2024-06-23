@@ -13,6 +13,8 @@
     justify-content: space-around;
     align-items: center;
     height: 200px;
+    width: 100%;
+    background-color: var(--white-smoke);
 }
 .page-links{
     display: flex;
@@ -30,17 +32,19 @@
     color: var(--hover-colour);
 }
 .button-reserve button {
-    background-color: var(--button-colour);
-    color: white;
-    border: none;
+    background-color: var(--transparent);
+    color: var(--background-colour);
+    border-color: var(--button-colour);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
     padding: 10px 15px 10px 15px;
     font-size: larger;
     font-family: var(--text-font);  
-    margin: 20px;  
+    margin: 20px;    
 }
 .button-reserve button:hover{
-    background-color: var(--button-hover);
+    color: var(--button-hover);
+    border-color: var(--hover-colour);
 }
 main{
     /*background-color: var(--colour-gray);*/
@@ -178,7 +182,12 @@ span p{
     font-size: 15px;
     color: var(--background-colour);
 }
-
+.stars{
+    color: goldenrod;
+}
+.smile{
+    color: goldenrod;
+}
 footer{
     display: flex;
     background-color: var(--white-smoke);
