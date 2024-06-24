@@ -23,7 +23,7 @@ header{
     align-items: center;
     /*padding: 20px;*/
     /*z-index: 900;*/
-    height: 200px;
+    height: 150px;
     
 }
 .header-left span{
@@ -71,7 +71,7 @@ main .container{
     justify-content: center;
     align-items: center;
     /*box-shadow: 0 0 2px #696868c7,0 2px 5px rgb(252, 163, 19);*/
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: var(--box-shadow);
     border-radius: 20px;
     background-color: var(--transparent);
     /*background-color: var(--white);*/
@@ -140,7 +140,8 @@ main .container{
     border-color: var(--button-colour);
     outline:none;
     border-radius:40px;
-    box-shadow: 0 0 10px rgba(0,0,0,.15);
+    /*box-shadow: 0 0 10px rgba(0,0,0,.15);*/
+    box-shadow: var(--box-shadow);
     cursor:pointer;
     font-size:16px;
     color: var(--background-colour);
@@ -168,7 +169,7 @@ footer{
     /*padding:10px o;*/
     width:100%;
     background-color: var(--white-smoke);
-    height: 200px;
+    height: 162px;
     display: flex;
     justify-content: center;
     align-items: center;

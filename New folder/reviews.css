@@ -36,7 +36,7 @@
     background-color: var(--transparent);
     color: var(--background-colour);
     border-color: var(--button-colour);
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: var(--box-shadow);
     border-radius: 10px;
     padding: 10px 15px 10px 15px;
     font-size: larger;
